@@ -12,7 +12,7 @@ module.exports = {
 //  publicPath: '/dist/',
 //  filename: 'index.js'
 //},
-  entry: NODE_ENV == 'development' ? './src/main.js' : './src/plugin/button/index.js',
+  entry: NODE_ENV == 'development' ? './src/main.js' : './src/plugin/methods/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
